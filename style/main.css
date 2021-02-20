@@ -1,0 +1,55 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', Times, serif;
+}
+
+body{
+    background: var(--preta);
+    color: white;
+    
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container .logo{
+    color: var(--vermelho);
+    font-family: "Arial Black", Times;
+    font-size: 40px;
+}
+
+header .container nav .menu{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header .container nav .menu:hover{
+    color:#fff;
+}
+div.filme-principal{
+    font-size: 14px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/mandalorian-capa.jpg);
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+.titulo {
+    font-size: 38px;
+}
